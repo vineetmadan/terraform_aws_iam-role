@@ -20,6 +20,7 @@ variable "iam_role_policy_name" {
 variable "iam_role_policy" {
   description = "IAM role policy"
   type        = string
+  default     = ""
 }
 
 variable "create_instance_profile" {
@@ -30,6 +31,7 @@ variable "create_instance_profile" {
 variable "iam_instance_profile_name" {
   description = "Name of the IAM instance profile to be created"
   type        = string
+  default     = ""
 }
 
 variable "policy_list" {
